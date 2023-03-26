@@ -1,0 +1,21 @@
+npm i --save-dev webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/plugin-transform-runtime @babel/runtime html-webpack-plugin style-loader css-loader clean-webpack-plugin mini-css-extract-plugin css-minimizer-webpack-plugin
+
+If sass or tailwind css used: sass-loader postcss-loader 
+@babel/runtime-corejs3
+
+"start": "webpack serve --mode development --open --hot",
+"build": "webpack --mode production",
+
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 3,
+        "useESModules": true
+      }
+    ]
+  ]
+}
