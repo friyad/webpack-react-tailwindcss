@@ -54,7 +54,3 @@ To build the production-ready assets, run:
 `npm run build ` \
 
 This will create a `dist` directory containing all the optimized assets.
-
-```
-
-```
