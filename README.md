@@ -6,12 +6,12 @@ This boilerplate includes a complete webpack configuration that can be used for 
 
 Clone this repository and install dependencies using `npm`:
 
-``
+```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 npm install
 
-``
+```
 
 ### Dependencies
 
@@ -54,3 +54,7 @@ To build the production-ready assets, run:
 `npm run build ` \
 
 This will create a `dist` directory containing all the optimized assets.
+
+```
+
+```
